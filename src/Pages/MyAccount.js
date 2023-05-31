@@ -29,8 +29,8 @@ const MyAccount = () => {
                                 />
                            </Col> 
                            <Col xs={9} className="pt-1">
-                                <span>Hello,</span>
-                                <h4>Code With yd</h4>
+                                <span>Hello</span>
+                                <h4>Code With Hina</h4>
                            </Col>
                         </Row>
                         <Nav variant="pills" className="flex-column">
@@ -57,22 +57,29 @@ const MyAccount = () => {
                      <Col sm={8} className={`${theme? 'text-light bg-dark' : 'text-black bg-light'} p-2 rounded`}>
                         <Tab.Content>
                             <Tab.Pane eventKey="my-orders">
-                                <Heading heading="My Orders" size="h3" />
-                                <OrderCard 
+                                 <Heading heading="My Orders" size="h3" />
+                                 <OrderCard 
+                                    orderDate="24 april, 2022" 
+                                    orderId="1231" 
+                                    title="Mens Casual Premium Slim Fit T-Shirts"
+                                    img="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                                    deliveredDate="01 may, 2023"
+                                /> 
+                                 <OrderCard 
                                     orderDate="24 Jun, 2022" 
-                                    orderId="1234" 
+                                    orderId="1232" 
                                     title="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
                                     img="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
                                     deliveredDate="05 July, 2022"
                                 />
                                 <OrderCard 
-                                    orderDate="24 Jun, 2022" 
-                                    orderId="1334" 
+                                    orderDate="20 sep, 2023" 
+                                    orderId="1233" 
                                     title="Mens Casual Premium Slim Fit T-Shirts"
-                                    img="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
-                                    deliveredDate="05 July, 2022"
-                                />
-                            </Tab.Pane>
+                                    img="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                                    deliveredDate="07 oct, 2023"
+                                /> 
+                            </Tab.Pane> 
                             <Tab.Pane eventKey="account-details">
                                 <Heading heading="Account details" size="h3" />
                             </Tab.Pane>
